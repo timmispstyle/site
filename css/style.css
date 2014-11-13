@@ -1,0 +1,95 @@
+@font-face {
+    font-family: Ubuntu;
+    src: url("../fonts/Ubuntu.ttf");
+}
+@font-face {
+    font-family: a_Stamper;
+    src: url("../fonts/a_Stamper.ttf");
+}
+
+body, html {
+	height: 100%;
+}
+a {
+	color: #000;
+	text-decoration: none;
+}
+.page {
+	margin: auto;
+	max-width: 960px;
+	box-shadow: 0 15px 15px 10px rgba(0,0,0, 0.25);
+}
+
+.page-header {
+	overflow: hidden;
+	padding-top: 1px;
+	text-align: center;
+}
+
+.title-header {
+	margin-bottom:-20px;
+	font-size: 20px;
+	font-family: a_Stamper;
+}
+.eng-name {
+	font-size: 15px;
+	font-family: a_Stamper;
+}
+
+/*menu ul li*/
+.menu-container {
+	margin: 10px auto;
+	text-align: center;
+	overflow: hidden;
+	min-width: 275px;
+	max-width: 275px;
+	border-top: 1px solid rgb(44, 44, 43);
+	border-bottom: 1px solid rgb(44, 44, 43);
+	color: #000000;
+	font-family: Ubuntu;
+}
+#menu ul{
+   list-style:none;
+   margin:0;
+   padding:0;
+}
+#menu li{
+   float:left;
+}
+#menu li a{
+   display: inline-block;
+   line-height: 25px;
+   padding: 0 20px 0px 20px;
+   text-decoration:none;
+   color: #000;
+}
+#menu li a:hover{
+   background: rgba(0,0,0, 0.15);
+}
+/*menu ul li*/
+
+.page-body {
+	padding-top: 40px;
+	text-align: center;
+}
+.about-me-container {
+	margin: 15px 15px;
+	overflow: hidden;
+	font-family: Ubuntu;
+}
+.about-me-photo {
+	width: 32%;
+	min-width: 300px;
+	min-height: 300px;
+	float: left;
+	margin-right: 15px;
+}
+.about-me-text {
+	text-align: justify;
+	text-indent: 15px;
+	width: 90%;
+}
+
+.php-button {
+	padding-bottom: 30px;
+}
